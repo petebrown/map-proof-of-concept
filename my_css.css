@@ -9,11 +9,17 @@ path[id^='trash_'] {
 h1 {
   font-family: Helvetica Neue;
   text-align: center;
+  margin: 7rem auto;
+  font-size: xxx-large;
+  font-weight: 400;
 }
 
 h3 {
-  font-family: Helvetica Neue;
-  text-align: center;
+    font-family: Helvetica Neue;
+    text-align: center;
+    font-weight: 300;
+    font-size: x-large;
+    margin: 5rem auto;
 }
 
 p {
@@ -22,8 +28,8 @@ p {
 }
 
 .byline {
-  font-size: 1em;
-  font-weight: light;
+  font-size: 1.25em;
+  font-weight: lighter;
 }
 
 .poop-text {
