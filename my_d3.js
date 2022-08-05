@@ -12,9 +12,9 @@ scroller.setup({
     // a series of if statements to run different pieces of code for different steps
     if (response.index === 0) {
         // inside each step, let's provide instructions for everything that needs to happen
-        d3.select("#g-poops-Artboard_1-img").transition().duration(2000).style("opacity", 1);
         d3.select("#big_poop").transition().duration(4000).style("opacity", 0);
         d3.selectAll(".g-map_architecture").transition().duration(4000).style("opacity", 0.5);
+        d3.select("#g-poops-Artboard_1-img").transition().duration(2000).style("opacity", 1);
     } else if (response.index === 7) {
         if (interval) {
             clearInterval(interval)
@@ -38,7 +38,7 @@ scroller.setup({
             } else {            
                 id_name = `#poop_${number}`
     
-                d3.select(id_name).style("opacity", 1)
+                d3.select(id_name).style("opacity", 0.85)
                 console.log("Displayed " + id_name)
     
                 d3.select('#shit_counter').text("Poop counter: " + number)
@@ -51,10 +51,10 @@ scroller.setup({
             clearInterval(interval)
         }
 
-        d3.selectAll("path[id^='poop_']").transition().duration(1000).style("opacity", 0.8)
+        d3.selectAll("path[id^='poop_']").transition().duration(1000).style("opacity", 0.85)
         d3.selectAll("path[id^='trash_']").transition().duration(1000).style("opacity", 0)
         
-    } else if (response.index === 12) {
+    } else if (response.index === 11) {
         if (interval) {
             clearInterval(interval)
         }
