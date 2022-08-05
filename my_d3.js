@@ -50,7 +50,7 @@ scroller.setup({
                 
                 number += 1
             }
-        }, 200)
+        }, 250)
     } else if (response.index === 10) {
         if (interval) {
             clearInterval(interval)
@@ -64,25 +64,27 @@ scroller.setup({
             clearInterval(interval)
         }
 
-        total_trash_cans = d3.selectAll("path[id^='trash_']").size()
-        console.log(total_trash_cans + ' trash cans found')
-        number = 1
+        d3.selectAll("path[id^='trash_']").transition().duration(2500).style("opacity", 1)
 
-        interval = setInterval(function() {
-        if (number > total_trash_cans) {
-            return
-        } else {
+        // total_trash_cans = d3.selectAll("path[id^='trash_']").size()
+        // console.log(total_trash_cans + ' trash cans found')
+        // number = 1
 
-        id_name = `#trash_${number}`
+        // interval = setInterval(function() {
+        // if (number > total_trash_cans) {
+        //     return
+        // } else {
+
+        // id_name = `#trash_${number}`
         
-        d3.select(id_name).style("opacity", 1)
+        // d3.select(id_name).style("opacity", 1)
 
-        d3.select('#trash_can_counter').text("Trash can counter: " + number)
-        console.log('Displayed ' + id_name)
+        // d3.select('#trash_can_counter').text("Trash can counter: " + number)
+        // console.log('Displayed ' + id_name)
 
-        number += 1
-        }
-    }, 200)
+        // number += 1
+    //     }
+    // }, 200)
     } else if (response.index === 14) {
         d3.selectAll("path[id^='trash_']").transition().duration(1000).style("opacity", 1)
     }
