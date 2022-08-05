@@ -1,8 +1,3 @@
-// d3.select("#top-page").on('stepin', function(e) {
-//     d3.selectAll("#big_poop, #g-poops-Artboard_1-img, .g-map_architecture")
-//     .style("opacity", 0)
-// });
-
 let interval = null;
 
 scroller.setup({
