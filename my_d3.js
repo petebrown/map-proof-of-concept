@@ -1,7 +1,7 @@
-d3.select("#top-page").on('stepin', function(e) {
-    d3.selectAll("#big_poop, #g-poops-Artboard_1-img, .g-map_architecture")
-    .style("opacity", 0)
-});
+// d3.select("#top-page").on('stepin', function(e) {
+//     d3.selectAll("#big_poop, #g-poops-Artboard_1-img, .g-map_architecture")
+//     .style("opacity", 0)
+// });
 
 let interval = null;
 
@@ -25,7 +25,7 @@ scroller.setup({
             clearInterval(interval)
         }
 
-        d3.selectAll("path[id^='poop_']").style("opacity", 0)
+        d3.selectAll("path[id^='poop_']").transition().duration(1000).style("opacity", 0)
 
         
     } else if (response.index === 8) {
@@ -57,7 +57,7 @@ scroller.setup({
         }
 
         d3.selectAll("path[id^='poop_']").transition().duration(1000).style("opacity", 0.8)
-        d3.selectAll("path[id^='trash_']").style("opacity", 0)
+        d3.selectAll("path[id^='trash_']").transition().duration(1000).style("opacity", 0)
         
     } else if (response.index === 12) {
         if (interval) {
