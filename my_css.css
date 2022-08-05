@@ -1,0 +1,60 @@
+path[id^='poop_'] {
+  opacity: 0;
+}
+
+path[id^='trash_'] {
+  opacity: 0;
+}
+
+h1 {
+  font-family: Helvetica Neue;
+  text-align: center;
+}
+
+h3 {
+  font-family: Helvetica Neue;
+  text-align: center;
+}
+
+p {
+  font-family: Helvetica Neue;
+  text-align: center;
+}
+
+.byline {
+  font-size: 1em;
+  font-weight: light;
+}
+
+.poop-text {
+  color:  rgb(95, 64, 0);
+}
+
+.trash-can-text {
+  color: #09BB9F;
+}
+
+.story-text {
+  text-align: left;
+}
+
+.story-image {
+  max-width: 35rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#big_poop {
+  opacity: 1;
+}
+
+/* Make map start invisible */
+#g-poops-Artboard_1-img {
+  opacity: 0
+}
+
+/* Make streetnames etc start invisible */
+.g-map_architecture {
+  opacity: 0
+}

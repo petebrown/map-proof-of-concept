@@ -1,0 +1,80 @@
+    #g-poops-box ,
+    #g-poops-box .g-artboard {
+        margin:0 auto;
+    }
+    #g-poops-box p {
+        margin:0;
+    }
+    #g-poops-box .g-aiAbs {
+        position:absolute;
+    }
+    #g-poops-box .g-aiImg {
+        position:absolute;
+        top:0;
+        display:block;
+        width:100% !important;
+    }
+    #g-poops-box .g-aiSymbol {
+        position: absolute;
+        box-sizing: border-box;
+    }
+    #g-poops-box .g-aiPointText p { white-space: nowrap; }
+    #g-poops-Artboard_1 {
+        position:relative;
+        overflow:hidden;
+    }
+    #g-poops-Artboard_1 p {
+        font-family:arial,helvetica,sans-serif;
+        line-height:12px;
+        height:auto;
+        opacity:1;
+        letter-spacing:0em;
+        font-size:10px;
+        text-align:left;
+        color:rgb(0,0,0);
+        text-transform:none;
+        padding-bottom:0;
+        padding-top:0;
+        mix-blend-mode:normal;
+        font-style:normal;
+        position:static;
+    }
+    #g-poops-Artboard_1 .g-pstyle0 {
+        height:12px;
+        text-align:center;
+        color:rgb(0,255,0);
+    }
+    #g-poops-Artboard_1 .g-pstyle1 {
+        height:12px;
+        text-align:center;
+    }
+    #g-poops-Artboard_1 .g-pstyle2 {
+        height:12px;
+        text-align:center;
+        color:rgb(154,163,174);
+    }
+    #g-poops-Artboard_1 .g-pstyle3 {
+        height:12px;
+        color:rgb(0,255,0);
+    }
+    #g-poops-Artboard_1 .g-pstyle4 {
+        height:12px;
+        color:rgb(154,163,174);
+    }
+    #g-poops-Artboard_1 .g-pstyle5 {
+        height:12px;
+    }
+    #g-poops-Artboard_1 .g-pstyle6 {
+        line-height:14px;
+        height:14px;
+        font-size:12px;
+    }
+    #g-poops-Artboard_1 .g-pstyle7 {
+        height:12px;
+        color:rgb(51,51,51);
+    }
+    #g-poops-Artboard_1 .g-pstyle8 {
+        line-height:13px;
+        height:13px;
+        font-size:11px;
+    }
