@@ -1,3 +1,8 @@
+.header-image {
+  display: flex;
+  justify-content: center;
+}
+
 path[id^='poop_'] {
   opacity: 0;
 }
@@ -7,15 +12,15 @@ path[id^='trash_'] {
 }
 
 h1 {
-  font-family: Helvetica Neue;
+  font-family: "Helvetica Neue";
   text-align: center;
-  margin: 7rem auto;
+  margin: 5rem auto;
   font-size: xxx-large;
   font-weight: 450;
 }
 
 h3 {
-    font-family: Helvetica Neue;
+    font-family: "Helvetica Neue";
     text-align: center;
     font-weight: 300;
     font-size: x-large;
@@ -23,7 +28,7 @@ h3 {
 }
 
 p {
-  font-family: Helvetica Neue;
+  font-family: "Helvetica Neue";
   text-align: center;
 }
 
